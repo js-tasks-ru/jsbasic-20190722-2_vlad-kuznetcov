@@ -1,7 +1,13 @@
-'use strict';
+// 'use strict';
 
-let a = '1234';
+//Task0
+//Это простейшая задача, которая призвана помочь вам разобраться с задачникам. Необходимо написать функцию, которая суммирует два числа
 
-debugger;
+var a, b;
 
-console.log(a);
+function sum(a, b) {
+  var c = a + b;
+  return c;
+}
+
+console.log(sum(1, 3));
