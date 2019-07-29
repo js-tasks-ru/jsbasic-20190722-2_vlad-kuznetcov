@@ -4,10 +4,11 @@
  * @param {number} n index
  * @returns {number}
  */
-function pow(m, n) {
-  let result;
-  m = prompt('Введите число', 1);
+let result,
+  m = prompt('Введите число', 1),
   n = prompt('Задайте степень', 1);
+
+function pow(m, n) {
   if (isNaN(m) === false && isNaN(n) === false) {
     m = +m;
     n = +n;
