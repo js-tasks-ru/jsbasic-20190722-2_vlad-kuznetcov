@@ -10,9 +10,9 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
-  let nameList = name.split();
+  const nameList = name.split();
   for (let i=0; i<nameList.length; i++) {
-    if (nameList[i] !== ' ' && nameList.length <= 7) { return true; }
+    if (nameList[i] !== ' ' && nameList.length <= 7) { return name; }
   }
 }
 
