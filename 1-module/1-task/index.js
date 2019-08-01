@@ -4,11 +4,14 @@
  * @param {number} n index
  * @returns {number}
  */
-const m = +prompt('Введите число', 1);
-const n = +prompt('Задайте степень', 1);
-let result;
-function pow(x, y) {
-  result = m ** n;
-  alert(result);
+function pow(m, n) {
+  let result = 1;
+
+  if ((Math.round(m) === m) && (Math.round(n) === n)) {
+    for (let i = 0; i < n; i += 1) {
+      result *= m;
+    }
+  }
+  return result;
 }
 pow();

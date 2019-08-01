@@ -5,7 +5,6 @@
  */
 
 function clone(obj) {
-  for (const key in obj) {
-    clone[key] = obj[key];
-  }
+  const copy = Object.assign({}, obj);
+  return copy;
 }
