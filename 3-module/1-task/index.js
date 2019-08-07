@@ -5,5 +5,6 @@
  * @returns {string}
  */
 function showSalary(data, age) {
-  let person = data.filter(data['age'] => data['age'] <= age);
+  // const person = data.filter(data['age'] => data['age'] <= age);
+  // return console.log(person);
 }
