@@ -20,7 +20,6 @@ function SortableTable(items) {
   const table = document.createElement('table');
   const thead = document.createElement('thead');
   const tbody = document.createElement('tbody');
-  const p = document.createElement('p');
   function getTheadList() {
     const fragment = new DocumentFragment();
     const tblHead = ['Name', 'Age', 'Salary', 'City'];
